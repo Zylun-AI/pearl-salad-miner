@@ -34,4 +34,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64
-          tags: ghcr.io/${{ github.repository_owner }}/pearl-salad-miner:latest
+          tags: ghcr.io/zylun-ai/pearl-salad-miner:latest
