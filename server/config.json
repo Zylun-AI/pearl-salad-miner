@@ -1,0 +1,51 @@
+{
+  "model_repo": "caikybaldo999/ZYI-1.6-BASE-180M-BETA",
+  "model_file": "zyi_1_6_base_180m_beta.pt",
+  "model_dir": "/models/zyi",
+
+  "vae_repo": "stabilityai/sd-vae-ft-mse",
+  "text_encoder_repo": "google/flan-t5-base",
+
+  "image_size": 256,
+
+  "latent_channels": 4,
+  "latent_size": 32,
+  "patch_size": 2,
+
+  "hidden_dim": 512,
+  "depth": 31,
+  "heads": 8,
+  "mlp_ratio": 4,
+
+  "text_emb_dim": 768,
+  "text_max_len": 32,
+
+  "vae_scale": 0.18215,
+
+  "device": "cuda",
+  "gpu_dtype": "float16",
+
+  "text_encoder_device": "cpu",
+  "vae_device": "cpu",
+
+  "low_vram_mode": true,
+  "cfg_mode": "sequential",
+
+  "torch_compile": false,
+
+  "cpu_threads": 4,
+
+  "default_steps": 8,
+  "max_steps": 20,
+
+  "default_cfg": 1.0,
+  "max_cfg": 4.5,
+
+  "max_prompt_chars": 500,
+
+  "max_queue": 4,
+
+  "rate_limit_seconds": 5,
+
+  "output_keep": 30
+}
