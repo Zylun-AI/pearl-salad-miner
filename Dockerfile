@@ -123,7 +123,8 @@ RUN mkdir -p \
 # COPY . /app/
 # ============================================================
 
-COPY server.py /app/server.py
+COPY server/app.py /app/server.py
+COPY server/model_zyi.py /app/model_zyi.py
 
 
 # ============================================================
