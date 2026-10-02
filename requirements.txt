@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+huggingface_hub
+transformers
+diffusers
+accelerate
+safetensors
+sentencepiece
+protobuf
+pillow
+numpy
+einops
+scipy
+requests
+python-multipart
+psutil
