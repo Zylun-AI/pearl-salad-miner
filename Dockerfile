@@ -60,4 +60,4 @@ RUN mkdir -p \
 
 EXPOSE 8000
 
-CMD ["python3", "-m", "uvicorn", "server.app:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD ["python3", "-u", "-m", "uvicorn", "server.app:app", "--host", "::", "--port", "8000", "--workers", "1", "--log-level", "info"]
